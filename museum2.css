@@ -1,0 +1,117 @@
+/* <!-- --------------------------------------Background Img------------------------------------------- --> */ 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bgImg {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(./Img/museum.jpg);
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImg h1{
+    color: white;
+    font-size: 75px;
+    letter-spacing: 7px;
+}
+
+/* <!-- ------------------------------------------------------------------------------------------------ -->
+
+<!-- ---------------------------------------Headings------------------------------------------- --> */
+
+.heading{
+    width: 50%;
+    margin: 25px auto;
+    height: 100%;
+}
+
+.heading ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.heading ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+/* <!-- ------------------------------------------------------------------------------------------------ -->
+
+<!-- -----------------------------------------Paras----------------------------------------------- --> */
+
+.paras{
+    width: 80%;
+    margin: auto;
+}
+
+.paras p{
+    text-align: center;
+    font-size: 19px;
+    color: gray;
+}
+
+/* <!-- ------------------------------------------------------------------------------------------------ -->
+
+<!-- -----------------------------------------About----------------------------------------------- --> */
+
+.aboutFamous{
+    width: 80%;
+    margin: 20px auto;
+    height: 65vh;
+    /* padding-bottom: 50px; */
+}
+.aboutFamous h1{
+    text-align: center;
+}
+
+.tajMehal{
+    margin: 30px;
+}
+
+.tajMehal div{
+    box-shadow: 2px 2px 3px 2px rgb(209, 208, 208);
+    padding: 30px 100px 30px 30px;
+    border-radius: 5px;
+    height: 45vh;
+    width: 60%;
+    float: left;
+
+}
+
+.tajMehal div h2{
+    text-align: right;
+    /* width: 20%; */
+    padding: 10px;
+}
+.tajMehal div p{
+    text-align: left;
+    font-size: 19px;
+    color: gray;
+}
+
+.tajMehal img{
+    float: right;
+    position: absolute;
+    right: 10%;
+    top: 140%;
+    width: 500px;
+    height: 260px;
+    border-radius: 5px;
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SwiperFile/swiper-bundle.min.css">
+
+    <style>
+        .outer-body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #efefef;
+        }
+
+        .slide-container {
+            max-width: 1120px;
+            width: 100%;
+            background-color: gray;
+            padding: 40px 0;
+        }
+
+        .slide-content {
+            margin: 0 40px;
+        }
+
+        .card {
+            /* width: 320px; */
+            border-radius: 25px;
+            background-color: #fff;
+        }
+
+        .image-content,
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 14px;
+        }
+
+        .image-content {
+            position: relative;
+            row-gap: 5px;
+            padding: 25px 0;
+        }
+
+        .overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #4070f4;
+            border-radius: 25px 25px 0 25px;
+        }
+
+        .overlay::before,
+        .overlay::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: -40px;
+            height: 40px;
+            width: 40px;
+            background-color: #4070f4;
+        }
+
+        .overlay::after {
+            border-radius: 0 25px 0 0;
+            background-color: white;
+        }
+
+        .card-image {
+            position: relative;
+            height: 150px;
+            width: 150px;
+            border-radius: 5px;
+            background: #fff;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer-body">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="./Img/unity2.jpg" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Statue of Unity</h2>
+                            <p class="description">It’s huge, almost gigantic! That is the first reaction most people
+                                have as they speed down the winding road leading to the towering Statue of Unity (SoU).
+                            </p>
+
+                            <!-- <button class="button">View More</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <script src="SwiperFile/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".slide-content", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,154 @@
+/* <!-- ------------------------------------Background Img------------------------------------------- --> */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bgImg {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(./Img/monsoon1.jpeg);
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgImg h1 {
+    color: white;
+    font-size: 75px;
+    letter-spacing: 7px;
+}
+
+.bgImg h2 {
+    color: white;
+    padding: 20px;
+}
+
+/* <!-- ------------------------------------------------------------------------------------------------ -->
+
+<!-- ---------------------------------------Headings------------------------------------------- --> */
+
+.heading {
+    width: 50%;
+    margin: 25px auto;
+    height: 100%;
+}
+
+.heading ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.heading ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* <!-- ------------------------------------------------------------------------------------------------ -->
+
+<!-- -----------------------------------------Paras----------------------------------------------- --> */
+
+.paras {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.paras h3 {
+    font-size: 18px;
+    padding: 8px 0;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.paras p {
+    font-size: 17px;
+    color: gray;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+
+/* <!-- ----------------------------------------------------------------------------------------------- -->
+
+<!-- ----------------------------------------Also Read--------------------------------------------- --> */
+
+.alsoRead{
+    width: 80%;
+    margin: 20px auto;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.alsoRead h1{
+    text-align: center;
+    padding: 10px;
+}
+.read-imgs{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+}
+
+.ok-read{
+    /* border: 1px solid black; */
+    padding: 5px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ok-read img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    position: absolute;
+    left: 22%;
+    top: 0%;
+}
+
+.rain-rain{
+    box-shadow: 2px 2px 3px 2px rgb(209, 208, 208);
+    padding: 10px;
+    width: 250px;
+    height: 230px;
+    border-radius: 5px;
+    /* position: relative; */
+    /* color: transparent; */
+}
+
+.rain-rain a{
+    width: 210px;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.rain-rain a:hover{
+    text-decoration: underline;
+}
